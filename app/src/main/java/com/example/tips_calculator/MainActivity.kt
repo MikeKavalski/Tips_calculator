@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
 
-    //To hide keybord after the number is entered end Enter tapped
+    //To hide keybord after the number is entered and Enter tapped
     private fun handleKeyEvent(view: View, keyCode: Int): Boolean {
         if (keyCode == KeyEvent.KEYCODE_ENTER) {
             // Hide the keyboard
